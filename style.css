@@ -1,0 +1,56 @@
+.about {
+    text-align : center;
+    color : whitesmoke;
+    background-color: black;
+    font-family : cursive;
+    font-size : 20px;
+}
+.about_extension{
+    text-align : right;
+    font-size : 20px;
+    padding-right : 50px;
+}
+.about_extension img{
+    opacity: 0.33;
+}
+body{
+   background-color: rgb(233, 233, 233);
+}
+h3{
+    text-align: center;
+}
+.about_extension:hover img{
+    opacity : 1
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.grid img{
+    border:2px solid black;
+    border-radius: 50px;
+}
+.origami{
+    border-radius: 20px;
+    background-color: white;
+
+    width:310px;
+    font-family: cursive;
+}
+.origami:hover{
+    transform: scale(1.2);
+}
+.bodyimg{
+    position : relative;
+}
+.bodyimg p{
+    color:#f7f2f2;
+    font-size: 55px;
+    font-family: cursive;
+    position: absolute;
+    top : 10%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+}
+
